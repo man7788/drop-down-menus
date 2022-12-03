@@ -1,0 +1,28 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(50, 50, 50);
+}
+
+.drop-div {
+  display: flex;
+  justify-content: start;
+}
+
+.drop-menu {
+  background: rgb(50, 50, 50);
+  color: whitesmoke;
+  font-size: 2rem;
+}
+
+.drop-button {
+  border: 2px solid whitesmoke;
+}
+
+.drop-option {
+  border: 2px solid whitesmoke;
+}

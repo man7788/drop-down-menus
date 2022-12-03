@@ -7,7 +7,8 @@ module.exports = {
   devtool: 'inline-source-map',
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'New Title',
+      title: 'Drop-down Menus',
+      template: './src/template.html',
     }),
   ],
   output: {
