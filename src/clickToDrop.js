@@ -1,6 +1,6 @@
 import findMenu from './findDom';
 
-function showMenu() {
+function clickToShowMenu() {
   const buttons = findMenu().buttonList;
   for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', blockStyle);
@@ -32,7 +32,7 @@ function blockStyle() {
 function noneStyle() {
   const option = this.nextElementSibling;
   option.style.display = 'none';
-  showMenu();
+  clickToShowMenu();
 }
 
-export default showMenu;
+export default clickToShowMenu;

@@ -1,5 +1,7 @@
 import './style.css';
 // import findMenu from './findDom';
-import showMenu from './domListeners';
+// import clickToShowMenu from './clickToDrop';
+import hoverToShowMenu from './hoverToDrop';
 
-showMenu();
+hoverToShowMenu();
+// clickToShowMenu();
