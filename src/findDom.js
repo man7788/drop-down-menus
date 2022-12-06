@@ -11,7 +11,18 @@ function findMenu() {
     buttonList.push(button);
     optionList.push(option);
   });
+  // console.log(optionList);
   return { dropDivList, buttonList, optionList };
 }
 
-export default findMenu;
+function findLinks() {
+  const aList = [];
+  const menuDiv = document.querySelectorAll('a.drop-item');
+  menuDiv.forEach((element) => {
+    aList.push(element);
+  });
+  // console.log(aList);
+  return { aList };
+}
+
+export { findMenu, findLinks };

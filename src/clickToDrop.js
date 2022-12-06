@@ -1,4 +1,5 @@
-import findMenu from './findDom';
+import { findMenu } from './findDom';
+import hoverToHighlight from './hoverHighlight';
 
 function clickToShowMenu() {
   const buttons = findMenu().buttonList;
@@ -27,6 +28,7 @@ function blockStyle() {
   const option = this.nextElementSibling;
   option.style.display = 'block';
   clickHideMenu();
+  hoverToHighlight();
 }
 
 function noneStyle() {

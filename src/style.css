@@ -31,8 +31,13 @@ body {
 .drop-option {
   border: 2px solid whitesmoke;
   position: absolute;
-  top: 21px;
+  top: 20px;
   z-index: 100;
   background: rgb(50, 50, 50);
-  width: 160px;
 }
+
+.drop-item {
+  white-space: nowrap;
+  cursor: pointer;
+}
+
